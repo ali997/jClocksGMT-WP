@@ -1,9 +1,9 @@
 <?php
    /*
-   Plugin Name: jClocksGMT-WP
+   Plugin Name: jClocksGMT - World Clocks for Wordpress
    Plugin URI: http://kingkode.com/jclocksgmt-wp
    Description: Analog and digital clock(s) plugin based on GMT offsets.
-   Version: 1.0
+   Version: 1.0.1
    Author: KingKode
    Author URI: http://kingkode.com/
    License: GPL2
@@ -68,7 +68,7 @@
             'angleMin' => 0,
             'angleHour' => 0,
             'skin' => 1,
-            'path' => plugin_dir_url( __FILE__ )
+            'imgpath' => plugin_dir_url( __FILE__ )
          ), $atts, 'jclocksgmt' );
 
       $uid = uniqid();
