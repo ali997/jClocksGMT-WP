@@ -30,7 +30,7 @@
        foreach ($posts as $post) {
 
            // Check the post content for the shortcode
-           if ( stripos($post->post_content, '[' . 'jclocksgmt') ) {
+           if ( stripos($post->post_content, '[' . 'jclocksgmt') !== false ) {
                // We have found a post with the shortcode
                $found = true;
                // Stop the search
